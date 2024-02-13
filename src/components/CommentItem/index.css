@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto';
+}
+
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+/* Write your CSS here */
+.comment-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 5px 0;
+  width: 100%;
+}
+.comment-details-section {
+  display: flex;
+  gap: 5px;
+  width: 100%;
+}
+.first-letter {
+  width: 26px;
+  height: 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 50%;
+  margin-right: 5px;
+  margin-top: 0;
+}
+.username-comment-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.username-time-section {
+  display: flex;
+  align-items: center;
+}
+.username {
+  color: #334155;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+  margin-right: 15px;
+}
+.time-of-uploaded {
+  color: #94a3b8;
+  font-size: 12px;
+  margin: 0;
+}
+.comment {
+  color: #64748b;
+  font-size: 14px;
+  margin: 10px 0;
+}
+.buttons-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.hr-line {
+  width: 100%;
+  border: 1px solid #94a3b8;
+}
+.like-button-text {
+  font-size: 12px;
+  font-weight: 500;
+  color: #94a3b8;
+}
+.blue-liked {
+  color: #0ea5e9;
+}

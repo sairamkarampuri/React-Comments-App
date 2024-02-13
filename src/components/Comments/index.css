@@ -1,0 +1,117 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto';
+}
+.bg-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.main-container {
+  width: 65%;
+  margin-top: 20px;
+}
+.comments-heading {
+  text-align: start;
+  font-size: 30px;
+  color: #1e293b;
+}
+.top-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 3px solid #cbd2d9;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.comments-description {
+  font-size: 16px;
+  font-weight: 500;
+  color: #475569;
+}
+.input-name-box {
+  height: 40px;
+  padding: 5px 10px;
+  font-size: 16px;
+  outline: none;
+  margin-bottom: 5px;
+  border: 2px solid #cbd2d9;
+  border-radius: 5px;
+}
+.comment-textarea {
+  height: 150px;
+  padding: 5px 10px;
+  font-size: 14px;
+  outline: none;
+  margin-bottom: 10px;
+  border: 2px solid #cbd2d9;
+  border-radius: 5px;
+}
+.submit-button {
+  padding: 10px 20px;
+  background-color: #0284c7;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: 500;
+}
+.comments-img {
+  width: 100%;
+}
+
+@media screen and (width <= 768px) {
+  .main-container {
+    width: 90%;
+    margin: 10px;
+  }
+  .top-container {
+    flex-direction: column-reverse;
+  }
+}
+/* ------------------------------------------------------------------- */
+.bottom-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.no-of-comments-section {
+  display: flex;
+  align-items: center;
+}
+.comments-count {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  background-color: #0284c7;
+  font-size: 14px;
+  font-weight: 500;
+  color: #ffffff;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+.comments-msg {
+  color: #475569;
+  font-weight: 600;
+  font-size: 16px;
+}
+.comments-detail-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  list-style: none;
+  width: 100%;
+  margin: 0;
+}
